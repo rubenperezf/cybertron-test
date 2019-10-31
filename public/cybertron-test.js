@@ -1571,10 +1571,10 @@
         function showPrice(cars) {
           return cars.salesPrice
         }
-        function expensive (acc, cars) {
+        function display (acc, cars) {
           return cars
         }
-        return (compose(reduce(expensive,0),map(showPrice),filter(cars2000))(cars))
+        return (compose(reduce(display,0),map(showPrice),filter(cars2000))(cars))
         };
       const exercise5 = _ => {
         function toUSD (cars) {
@@ -1687,7 +1687,7 @@
 
 
     level3();
-    // level2()
+    //level2()
     //level1()
 
     window.test = test;

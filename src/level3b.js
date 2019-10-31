@@ -108,10 +108,10 @@ export default function() {
     function showPrice(cars) {
       return cars.salesPrice
     }
-    function expensive (acc, cars) {
+    function display (acc, cars) {
       return cars
     }
-    return (compose(reduce(expensive,0),map(showPrice),filter(cars2000))(cars))
+    return (compose(reduce(display,0),map(showPrice),filter(cars2000))(cars))
     }
 
   const ex5 = `Use map to transform the salesPrice to USD currency format (ex: $400,000.00)
