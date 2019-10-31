@@ -65,9 +65,9 @@ export default function() {
         return firstLetter + cars.model.slice(1)
       } else {
         var twoWords = cars.model.split(" ")
-        var firstLetter2 = twoWords[0][0].toUpperCase() + twoWords[0].slice(1)
-        var firstLetter3 = twoWords[1][0].toUpperCase() + twoWords[1].slice(1)
-        return (firstLetter2+" " +firstLetter3)
+        var firstWord2 = twoWords[0][0].toUpperCase() + twoWords[0].slice(1)
+        var firstWord3 = twoWords[1][0].toUpperCase() + twoWords[1].slice(1)
+        return (firstWord2+" " +firstWord3)
       }  
     }
 
