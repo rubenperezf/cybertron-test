@@ -1,0 +1,34 @@
+{
+  "name": "cybertron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^8.0.1",
+    "ramda": "^0.26.1",
+    "tap-browser-color": "^0.1.2",
+    "tape-modern": "^1.1.2",
+    "w3": "^2.0.1"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "watch": "rollup -cw",
+    "w3": "w3 public",
+    "start": "run-p w3 watch"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.18.2",
+    "rollup": "^1.16.6",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
